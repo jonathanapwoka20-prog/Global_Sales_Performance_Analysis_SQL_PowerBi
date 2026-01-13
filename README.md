@@ -203,7 +203,7 @@ Calculated fields were created directly in SQL:
    ORDER BY "Total Sales" DESC, "Average Sales" DESC, "Total Profit" DESC, "Average Profit";
    
 - Time-Based Trends (Monthly, Quarterly, Daily)
-  - Monthly sales/profit trend Using a CTE to return month names as well
+  - Monthly sales/profit trend Using a CTE to return month names as well and determine seasonal peaks.
     ```sql
     WITH MonthCTE AS (
     SELECT 
@@ -260,19 +260,30 @@ Calculated fields were created directly in SQL:
    GROUP BY Day_Number, Day_Name
    ORDER BY Day_Number ASC;
 
-6️⃣ Power BI Modeling
-Key Measures (DAX)
-
-Total Sales Revenue
-
-Total Profit
-
-Profit Margin %
-
-Average Order Value
-
-Average Deal Size
-
+## 6. Power BI Modeling
+**Key Measures (DAX)**
+- Total Sales Revenue
+  ```powerbi
+  Total Sales Rev = SUM(Sales_Data[Total_Sales])
+- Total Profit
+  ```powerbi
+  Total Profit = SUM(Sales_Data[Profit])
+- Profit Margin %
+  ```powerbi
+  Profit Margin % = DIVIDE([Total Profit], [Total Sales Rev], 0)
+- Average Order Value
+  ```powerbi
+  Average Order Value = DIVIDE([Total Sales Rev], DISTINCTCOUNT(Sales_Data[Transaction_ID]), 0)
+- Average Deal Size per Sales Rep
+  ```powerbi
+  Average Deal Size = AVERAGE(Sales_Data[Total_Sales])
+  ```
+- Discount Impact (Revenue lost due to discount given to customers)
+  ```powerbi
+  Discount Impact (Tot Rev Lost) = SUMX(
+    Sales_Data,
+    (Sales_Data[Price_per_Unit] * Sales_Data[Quantity_Purchased]) * (Sales_Data[Discount_Applied] / 100)
+  )
 Time intelligence implemented using Power Query for month and day extraction.
 
 7️⃣ Key Insights
