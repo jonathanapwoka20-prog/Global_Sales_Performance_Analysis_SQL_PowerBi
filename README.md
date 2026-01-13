@@ -300,9 +300,9 @@ Time intelligence implemented using Power Query for month and day extraction.
 
 ## Tools & Skills Demonstrated
 
-- SQL (Data Cleaning, Aggregations, Feature Engineering)
+- SQL (Data Cleaning(ETL), CTEs, Window Functions, Data Imputation, Aggregations, Feature Engineering)
 - Excel (Initial validation)
-- Power BI (DAX, Power Query, Visualization)
+- Power BI (DAX, Power Query M- Language, Visualization)
 - Business Analytics
 - Dashboard Storytelling
 
