@@ -22,30 +22,14 @@ The analysis identifies top-performing regions, products, sales representatives,
 - **Source:** Dummy datasets (created for portfolio and learning purposes)
 - **Tools Used:** Excel, MS SQL Server, Power BI
 - **Countries Covered:**
-  - Canada
-  - China
-  - India
-  - Nigeria
-  - United Kingdom
-  - United States
+  - Canada | China | India | Nigeria | United Kingdom | United States
 
 ### Dataset Characteristics
 - Transaction-level sales data
 - Identical schemas across all country datasets
 - Key fields include:
-  - Transaction_ID
-  - Country
-  - Sales_Representative
-  - Product
-  - Category
-  - Quantity_Purchased
-  - Cost_Price
-  - Price_per_Unit
-  - Discount_Applied
-  - Customer_Age
-  - Customer_Gender
-  - Payment_Method
-  - Transaction_Date
+  - Transaction_ID | Country | Sales_Representative | Product | Category | Quantity_Purchased | Cost_Price
+  - Price_per_Unit | Discount_Applied | Customer_Age | Customer_Gender | Payment_Method | Transaction_Date
 
 ---
 
@@ -102,7 +86,7 @@ FROM Sales_Data
 GROUP BY Transaction_ID
 HAVING Count(*) > 1;
 ```
-The output was none
+The output was "none"
 
 ## 4. Feature Engineering
 
@@ -202,7 +186,7 @@ Calculated fields were created directly in SQL:
    GROUP BY Payment_Method
    ORDER BY "Total Sales" DESC, "Average Sales" DESC, "Total Profit" DESC, "Average Profit";
    
-- Time-Based Trends (Monthly, Quarterly, Daily)
+- Time-Based Trends (Monthly, Daily)
   - Monthly sales/profit trend Using a CTE to return month names as well and determine seasonal peaks.
     ```sql
     WITH MonthCTE AS (
@@ -286,55 +270,39 @@ Calculated fields were created directly in SQL:
   )
 Time intelligence implemented using Power Query for month and day extraction.
 
-7️⃣ Key Insights
+## 7. Key Insights
 
-Profit concentration varies significantly by country
+- Profit concentration varies significantly by country
+- Discount-heavy regions experience margin erosion
+- A small group of sales reps drives disproportionate revenue
+- Payment preferences vary strongly by geography
+- Clear seasonal sales peaks are observable
 
-Discount-heavy regions experience margin erosion
+## 8. Business Recommendations
 
-A small group of sales reps drives disproportionate revenue
+- Optimize discount strategies in low-margin regions
+- Scale best practices from top-performing sales reps
+- Align campaigns with seasonal demand spikes
+- Prioritize high-margin product categories
+- Customize payment offerings by country
 
-Payment preferences vary strongly by geography
+## 9. Dashboard Overview
+<img width="1920" height="1020" alt="Screenshot 2026-01-13 170430" src="https://github.com/user-attachments/assets/6133d608-9bba-488e-8bdc-4517d9058e5d" />
 
-Clear seasonal sales peaks are observable
 
-8️⃣ Business Recommendations
+**The Power BI dashboard above provides an executive-level overview of:**
+ 
+ 1. Revenue & profit performance
+ 2. Regional trends
+ 3. Sales rep rankings
+ 4. Customer & payment insights
+ 5. Time-based sales behavior
 
-Optimize discount strategies in low-margin regions
+## Tools & Skills Demonstrated
 
-Scale best practices from top-performing sales reps
-
-Align campaigns with seasonal demand spikes
-
-Prioritize high-margin product categories
-
-Customize payment offerings by country
-
-9️⃣ Dashboard Overview
-
-The Power BI dashboard provides an executive-level overview of:
-
-Revenue & profit performance
-
-Regional trends
-
-Sales rep rankings
-
-Customer & payment insights
-
-Time-based sales behavior
-
-Dashboard screenshots are available in the /visuals folder.
-
-🛠️ Tools & Skills Demonstrated
-
-SQL (Data Cleaning, Aggregations, Feature Engineering)
-
-Excel (Initial validation)
-
-Power BI (DAX, Power Query, Visualization)
-
-Business Analytics
-
-Dashboard Storytelling
+- SQL (Data Cleaning, Aggregations, Feature Engineering)
+- Excel (Initial validation)
+- Power BI (DAX, Power Query, Visualization)
+- Business Analytics
+- Dashboard Storytelling
 
