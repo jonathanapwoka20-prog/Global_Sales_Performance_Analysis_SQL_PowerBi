@@ -19,7 +19,7 @@ The analysis identifies top-performing regions, products, sales representatives,
 
 ## 2. Dataset Overview
 
-- **Source:** Dummy datasets (created for portfolio and learning purposes)
+- **Source:** Dummy datasets (created by Chatgpt)
 - **Tools Used:** Excel, MS SQL Server, Power BI
 - **Countries Covered:**
   - Canada | China | India | Nigeria | United Kingdom | United States
@@ -270,23 +270,9 @@ Calculated fields were created directly in SQL:
   )
 Time intelligence implemented using Power Query for month and day extraction.
 
-## 7. Key Insights
+---
 
-- Profit concentration varies significantly by country
-- Discount-heavy regions experience margin erosion
-- A small group of sales reps drives disproportionate revenue
-- Payment preferences vary strongly by geography
-- Clear seasonal sales peaks are observable
-
-## 8. Business Recommendations
-
-- Optimize discount strategies in low-margin regions
-- Scale best practices from top-performing sales reps
-- Align campaigns with seasonal demand spikes
-- Prioritize high-margin product categories
-- Customize payment offerings by country
-
-## 9. Dashboard Overview
+## 7. Dashboard Overview
 <img width="1920" height="1020" alt="Screenshot 2026-01-13 170430" src="https://github.com/user-attachments/assets/6133d608-9bba-488e-8bdc-4517d9058e5d" />
 
 
@@ -297,6 +283,22 @@ Time intelligence implemented using Power Query for month and day extraction.
  3. Sales rep rankings
  4. Customer & payment insights
  5. Time-based sales behavior
+
+## 8. Key Insights
+
+- Total Sales Revenue of **$4.14M** suggests a strong top-line indicator across all regions, further, a Total Profit of **$958.4K** which yields a Profit Margin of **23.16%**, implies that the business is healthy but calls up for a room of margin optimization.
+- Discount-heavy regions experience high margin sales with **New York (US)** having Total Sales of **$273,746.93** and a discount applied on all Product Categories being **$92,396.62**. **Los Angeles (US)** on the other hand, with a Total Sales of **$207,666.08** and a discount applied of **$62,970.21** produces the least margin of sales across all the sales markets.
+- A small group of sales reps drives disproportionate revenue with the top performing sales rep being **Jennifer Miller (Total Sales; $6,944.49, Profit; $1,558.79)**
+- Payment preferences vary across each market with **Mobile Paymnent Method** leading the way as the most preferred mode of transaction at **34.23%**, and Total Revenue realized from it being **$1,416,445.6**
+- Clear seasonal sales peaks are observable with most transctions being done on **Sundays** where **Total Revenue ($774K)** and **Profit ($185K)** are realized the most.
+
+## 9. Business Recommendations
+
+- Optimize discount strategies in low-margin regions
+- Scale best practices from top-performing sales reps
+- Align campaigns with seasonal demand spikes
+- Prioritize high-margin product categories
+- Customize payment offerings by country
 
 ## Tools & Skills Demonstrated
 
