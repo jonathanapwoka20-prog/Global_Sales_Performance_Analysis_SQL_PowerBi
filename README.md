@@ -290,7 +290,7 @@ Time intelligence implemented using Power Query for month and day extraction.
 - Discount-heavy regions experience high margin sales with **New York (US)** having Total Sales of **$273,746.93** and a discount applied on all Product Categories being **$92,396.62**. **Los Angeles (US)** on the other hand, with a Total Sales of **$207,666.08** and a discount applied of **$62,970.21** produces the least margin of sales across all the sales markets.
 - A small group of sales reps drives disproportionate revenue with the top performing sales rep being **Jennifer Miller (Total Sales; $6,944.49, Profit; $1,558.79)**
 - Payment preferences vary across each market with **Mobile Paymnent Method** leading the way as the most preferred mode of transaction at **34.23%**, and Total Revenue realized from it being **$1,416,445.6**
-- Clear seasonal sales peaks are observable with most transctions being done on **Sundays** where **Total Revenue ($774K)** and **Profit ($185K)** are realized the most.
+- Clear seasonal sales peaks are observable with most transctions being done on **Sundays** where **Total Revenue ($774K)** and **Profit ($185K)** are realized the most. Additionally, the month of **December** is the most peak month for the business realizing **$523.2K** in Total Sales Revenue and **$63K** in Profit.
 
 ## 9. Business Recommendations
 
