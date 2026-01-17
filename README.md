@@ -294,11 +294,12 @@ Time intelligence implemented using Power Query for month and day extraction.
 
 ## 9. Business Recommendations
 
-- Optimize discount strategies in low-margin regions
-- Scale best practices from top-performing sales reps
-- Align campaigns with seasonal demand spikes
-- Prioritize high-margin product categories
-- Customize payment offerings by country
+- Optimize discount strategies in low-margin regions (e.g. Los Angeles) to protect profitability.
+- Scale operations in high-performing markets (e.g. New York) to maximize revenue growth.
+- Replicate top sales rep practices through training and performance-based incentives.
+- Prioritize mobile payment adoption (34% of revenue) with targeted promotions.
+- Leverage seasonal peaks (Sundays, December) with campaigns and inventory planning.
+- Focus marketing on high-margin categories (Home & Kitchen, Sports) to boost overall margins.
 
 ## Tools & Skills Demonstrated
 
