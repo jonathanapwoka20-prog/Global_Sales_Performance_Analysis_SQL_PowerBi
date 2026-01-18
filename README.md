@@ -71,6 +71,10 @@ FROM Sales_Data;,
 ```
 Filled with average discount value $25.54
 
+  - **Data Integrity Note:**
+     *For missing price and quantity values, a mean imputation strategy was used to maintain the dataset's volume for trend analysis.*
+     *To ensure financial accuracy, these values were cross-referenced against product-specific modes to verify they did not materially skew the 23.16% profit margin.*
+
 **Price per Unit:**
 
 ```sql
@@ -298,7 +302,7 @@ Time intelligence implemented using Power Query for month and day extraction.
 
 ## 9. Strategic Business Recommendations
 
-* **Profitability Protection:** Redesign discount structures in low-margin regions like **Los Angeles** to mitigate margin erosion and improve net profitability.
+* **Profitability Protection:** Targeting a 2% uplift in overall profit margin (from 23.1% to 25%) by implementing localized discount caps in Los Angeles and the US market.
 * **Market Expansion:** Aggressively scale operations in high-performing hubs like **New York** to capitalize on proven demand and maximize top-line growth.
 * **Performance Benchmarking:** Replicate the high-conversion tactics of top-tier sales representatives through cross-regional training and performance-based incentive programs.
 * **Payment Infrastructure:** Prioritize the optimization of **Mobile Payment** gateways and launch targeted promotions specifically for mobile users to further capture the 34% market share.
