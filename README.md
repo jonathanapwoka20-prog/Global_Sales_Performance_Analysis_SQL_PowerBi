@@ -284,22 +284,28 @@ Time intelligence implemented using Power Query for month and day extraction.
  4. Customer & payment insights
  5. Time-based sales behavior
 
+---
+
 ## 8. Key Insights
 
-- Total Sales Revenue of **$4.14M** suggests a strong top-line indicator across all regions, further, a Total Profit of **$958.4K** which yields a Profit Margin of **23.16%**, implies that the business is healthy but calls up for a room of margin optimization.
-- Discount-heavy regions experience high margin sales with **New York (US)** having Total Sales of **$273,746.93** and a discount applied on all Product Categories being **$92,396.62**. **Los Angeles (US)** on the other hand, with a Total Sales of **$207,666.08** and a discount applied of **$62,970.21** produces the least margin of sales across all the sales markets.
-- A small group of sales reps drives disproportionate revenue with the top performing sales rep being **Jennifer Miller (Total Sales; $6,944.49, Profit; $1,558.79)**
-- Payment preferences vary across each market with **Mobile Paymnent Method** leading the way as the most preferred mode of transaction at **34.23%**, and Total Revenue realized from it being **$1,416,445.6**
-- Clear seasonal sales peaks are observable with most transctions being done on **Sundays** where **Total Revenue ($774K)** and **Profit ($185K)** are realized the most. Additionally, the month of **December** is the most peak month for the business realizing **$523.2K** in Total Sales Revenue and **$63K** in Profit.
+* **Financial Health & Margin Optimization:** Realized a **Total Sales Revenue of $4.14M** with a **Total Profit of $958.4K**. While the resulting **Profit Margin of 23.16%** indicates a healthy baseline, it highlights significant opportunities for margin optimization in underperforming regions.
+* **Discount & Margin Correlation:** Identified significant margin erosion in discount-heavy markets. While **New York (US)** generated $273,746 in sales with $92,396 in discounts, **Los Angeles (US)** yielded the lowest margins globally, with $62,970 in discounts applied against $207,666 in sales.
+* **Salesforce Efficiency:** Data reveals a high concentration of revenue driven by a select group of top performers; **Jennifer Miller** leads global rankings with **$6,944.49 in Sales** and **$1,558.79 in Profit**.
+* **Transaction Behavior:** **Mobile Payments** emerged as the dominant transaction method, accounting for **34.23% ($1.42M)** of total realized revenue, signaling a clear shift in consumer payment preferences.
+* **Seasonality & Peak Performance:** Analysis identified **Sundays** as the high-volume anchor for the week ($774K Revenue / $185K Profit). On an annual scale, **December** serves as the primary seasonal peak, generating **$523.2K in Sales Revenue**.
 
-## 9. Business Recommendations
+---
 
-- Optimize discount strategies in low-margin regions (e.g. Los Angeles) to protect profitability.
-- Scale operations in high-performing markets (e.g. New York) to maximize revenue growth.
-- Replicate top sales rep practices through training and performance-based incentives.
-- Prioritize mobile payment adoption (34% of revenue) with targeted promotions.
-- Leverage seasonal peaks (Sundays, December) with campaigns and inventory planning.
-- Focus marketing on high-margin categories (Home & Kitchen, Sports) to boost overall margins.
+## 9. Strategic Business Recommendations
+
+* **Profitability Protection:** Redesign discount structures in low-margin regions like **Los Angeles** to mitigate margin erosion and improve net profitability.
+* **Market Expansion:** Aggressively scale operations in high-performing hubs like **New York** to capitalize on proven demand and maximize top-line growth.
+* **Performance Benchmarking:** Replicate the high-conversion tactics of top-tier sales representatives through cross-regional training and performance-based incentive programs.
+* **Payment Infrastructure:** Prioritize the optimization of **Mobile Payment** gateways and launch targeted promotions specifically for mobile users to further capture the 34% market share.
+* **Inventory & Marketing Calibration:** Align inventory levels and high-impact marketing campaigns with identified seasonal surges (**Sundays and December**) to ensure supply meets peak demand.
+* **Category Focus:** Pivot marketing spend toward high-margin categories such as **Home & Kitchen** and **Sports** to elevate the overall corporate profit margin.
+
+---
 
 ## Tools & Skills Demonstrated
 
